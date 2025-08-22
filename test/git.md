@@ -9,6 +9,7 @@ git push             # 推送本地代码到远程仓库
 
 #常用工作步骤
 git clone <repo>     # 克隆远程仓库到本地
+git checkout -b <branch> # 创建并切换到新分支
 git add .            # 添加所有更改的文件到暂存区
 git commit -m "提交信息"  # 提交暂存区到仓库
 git push origin main # 推送到远程主分支
